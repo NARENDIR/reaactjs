@@ -1,0 +1,72 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+1 info using npm@8.5.1
+2 info using node@v12.22.9
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 20ms
+6 timing config:load:builtin Completed in 20ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:/home/ubuntu/.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 3ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 31ms
+18 timing npm:load:configload Completed in 31ms
+19 timing npm:load:setTitle Completed in 1ms
+20 timing config:load:flatten Completed in 4ms
+21 timing npm:load:display Completed in 7ms
+22 verbose logfile /home/ubuntu/.npm/_logs/2023-11-02T05_22_13_083Z-debug-0.log
+23 timing npm:load:logFile Completed in 8ms
+24 timing npm:load:timers Completed in 0ms
+25 timing npm:load:configScope Completed in 0ms
+26 timing npm:load Completed in 48ms
+27 timing arborist:ctor Completed in 2ms
+28 timing arborist:ctor Completed in 0ms
+29 timing idealTree:init Completed in 17ms
+30 timing idealTree:userRequests Completed in 0ms
+31 silly idealTree buildDeps
+32 timing idealTree:#root Completed in 0ms
+33 timing idealTree:buildDeps Completed in 2ms
+34 timing idealTree:fixDepFlags Completed in 0ms
+35 timing idealTree Completed in 21ms
+36 timing reify:loadTrees Completed in 22ms
+37 timing reify:diffTrees Completed in 1ms
+38 silly reify moves {}
+39 timing reify:retireShallow Completed in 0ms
+40 timing reify:createSparse Completed in 0ms
+41 timing reify:loadBundles Completed in 0ms
+42 silly audit report null
+43 timing reify:audit Completed in 1ms
+44 timing reify:unpack Completed in 1ms
+45 timing reify:unretire Completed in 0ms
+46 timing build:queue Completed in 0ms
+47 timing build:deps Completed in 0ms
+48 timing build Completed in 1ms
+49 timing reify:build Completed in 1ms
+50 timing reify:trash Completed in 1ms
+51 timing reify:save Completed in 3ms
+52 timing reify Completed in 57ms
+53 timing command:install Completed in 63ms
+54 verbose stack Error: ENOENT: no such file or directory, open '/home/ubuntu/package.json'
+55 verbose cwd /home/ubuntu
+56 verbose Linux 6.2.0-1012-aws
+57 verbose argv "/usr/bin/node" "/usr/bin/npm" "install"
+58 verbose node v12.22.9
+59 verbose npm  v8.5.1
+60 error code ENOENT
+61 error syscall open
+62 error path /home/ubuntu/package.json
+63 error errno -2
+64 error enoent ENOENT: no such file or directory, open '/home/ubuntu/package.json'
+65 error enoent This is related to npm not being able to find a file.
+65 error enoent
+66 verbose exit -2
+67 timing npm Completed in 464ms
+68 verbose code -2
+69 error A complete log of this run can be found in:
+69 error     /home/ubuntu/.npm/_logs/2023-11-02T05_22_13_083Z-debug-0.log
